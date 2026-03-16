@@ -1,0 +1,8 @@
+name: Invalid Type Field
+description: Mapping with invalid type value
+version: "1.0.0"
+type: invalid_type_value
+subject_source:
+  name: Source A
+object_source:
+  name: Target B

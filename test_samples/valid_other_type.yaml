@@ -1,0 +1,8 @@
+name: Other Type Mapping
+description: Mapping with 'other' type (maps to ANY subType)
+version: "1.0.0"
+type: other
+subject_source:
+  name: Custom Source
+object_source:
+  name: Custom Target

@@ -1,0 +1,10 @@
+name: Bad YAML Syntax
+description: This file has invalid YAML
+version: "1.0.0"
+type: sssom
+subject_source:
+  name: Source A
+object_source:
+  name: Target B
+  invalid indentation here
+  another: field

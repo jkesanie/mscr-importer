@@ -1,0 +1,9 @@
+name: File Content Mapping
+description: Mapping with file:// content URL for local upload
+version: "1.0.0"
+type: sssom
+subject_source:
+  name: Source C
+object_source:
+  name: Target D
+content_url: "file://test_data/local_mapping.sssom"

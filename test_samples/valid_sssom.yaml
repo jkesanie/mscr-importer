@@ -1,0 +1,15 @@
+name: SSSOM Mapping
+description: Semantic Similarity Mapping using SSSOM format
+version: "1.2.0"
+type: sssom
+subject_source:
+  name: Gene Ontology
+  id: "http://geneontology.org"
+object_source:
+  name: Reactome
+  id: "http://reactome.org"
+creator:
+  type: Person
+  name: Bioinformatics Team
+publication_date: "2024-02-20"
+license: "https://creativecommons.org/publicdomain/zero/1.0/"

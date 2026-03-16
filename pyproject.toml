@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "mscr-importer"
+version = "0.1.0"
+description = "CLI for harvesting YAML data and ingesting to MSCR API"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [
+    { include = "mscr_importer.py" },
+    { include = "api_client.py" },
+    { include = "validator.py" },
+    { include = "transformer.py" },
+    { include = "fair_mappings_schema.py" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = ">=0.9.0"
+requests = ">=2.31.0"
+requests-toolbelt = ">=1.0.0"
+pyyaml = ">=6.0"
+pydantic = ">=2.0.0"
+python-dotenv = ">=1.0.0"
+rich = ">=13.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=7.0.0"
+pytest-cov = ">=4.0.0"
+black = ">=23.0.0"
+ruff = ">=0.1.0"
+
+[tool.poetry.scripts]
+mscr-importer = "mscr_importer:app"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+target-version = ['py310']
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+select = ["E", "F", "I", "N", "W"]
+ignore = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]

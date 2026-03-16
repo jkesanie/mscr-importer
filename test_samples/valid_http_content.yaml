@@ -1,0 +1,9 @@
+name: HTTP Content Mapping
+description: Mapping with HTTP content URL
+version: "1.0.0"
+type: sssom
+subject_source:
+  name: Source A
+object_source:
+  name: Target B
+content_url: "https://example.org/mappings/http-content.sssom"

@@ -1,0 +1,16 @@
+prefixmaps:
+  sssom: https://w3id.org/sssom/
+  skos: http://www.w3.org/2004/02/skos/core#
+  ex: http://example.org/
+
+mappings:
+  - subject_id: ex:term1
+    predicate_id: skos:exactMatch
+    object_id: ex:term2
+    subject_label: Term One
+    object_label: Term Two
+  - subject_id: ex:term3
+    predicate_id: skos:broadMatch
+    object_id: ex:term4
+    subject_label: Term Three
+    object_label: Term Four

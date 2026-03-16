@@ -1,0 +1,13 @@
+name: R2RML Mapping
+description: R2RML data crosswalk mapping
+version: "3.0.0"
+type: r2rml
+subject_source:
+  name: PostgreSQL Database Schema
+object_source:
+  name: RDF Dataset
+creator:
+  type: Software
+  name: R2RML Generator
+  id: "https://r2rml.org"
+content_url: "file://test_data/sample_r2rml.ttl"

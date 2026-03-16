@@ -1,0 +1,12 @@
+name: SPARQL Mapping
+description: SPARQL-based semantic annotation
+version: "2.0.0"
+type: sparql
+subject_source:
+  name: RDF Graph A
+object_source:
+  name: RDF Graph B
+author:
+  type: Person
+  name: SPARQL Expert
+  id: "https://example.org/expert"

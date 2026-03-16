@@ -1,0 +1,16 @@
+name: YAML Content Mapping
+description: Mapping with inline YAML content
+version: "1.0.0"
+type: sssom
+subject_source:
+  name: Source X
+object_source:
+  name: Target Y
+content_url: |
+  prefix:
+    sssom: https://w3id.org/sssom/
+    skos: http://www.w3.org/2004/02/skos/core#
+  mappings:
+    - subject_id: http://example.org/A
+      predicate_id: skos:exactMatch
+      object_id: http://example.org/B

@@ -1,0 +1,9 @@
+name: XSLT Mapping
+description: XSLT transformation mapping
+version: "1.5.0"
+type: xslt
+subject_source:
+  name: XML Schema A
+object_source:
+  name: XML Schema B
+documentation: "https://example.org/docs/xslt-transformation"

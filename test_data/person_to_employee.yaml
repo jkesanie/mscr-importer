@@ -1,0 +1,27 @@
+name: Test mapping for VP26
+description: Mapping between Person and Employee XSD schemas. 
+version: "0.1.0"
+type: xslt
+id: "https://example.org/mappings/full-001"
+subject_source:
+  name: Person schema
+  id: "mscr:schema:07ef38c1-3400-468d-acc1-d96e79453587"
+object_source:
+  name: Employee schema
+  id: "mscr:schema:6bf8fb8b-abc0-4b07-8c04-d3d11b9e1668"
+creator:
+  type: Person
+  name: Jane Researcher
+  id: "https://orcid.org/0000-0000-0000-0000"
+author:
+  type: Organization
+  name: Research Institute
+  id: "https://example.org/institute"
+reviewer:
+  type: Person
+  name: Dr. Reviewer
+  id: "https://orcid.org/0000-1111-1111-1111"
+publication_date: "2024-01-15"
+license: "https://creativecommons.org/licenses/by/4.0/"
+documentation: "https://example.org/docs/mapping-spec"
+content_url: "file://test_data/person_transform.xslt"

@@ -1,0 +1,8 @@
+name: Minimal Mapping
+description: A minimal valid mapping specification
+version: "1.0.0"
+type: sssom
+subject_source:
+  name: Source Ontology
+object_source:
+  name: Target Ontology
