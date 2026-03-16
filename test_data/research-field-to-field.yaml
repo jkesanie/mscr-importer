@@ -1,0 +1,27 @@
+name: SSSOM test mapping for VP26
+description: Mapping between Minedu and Australian and New Zealand Standard Research Classification
+version: "0.1.0"
+type: sssom
+id: "https://example.org/mappings/demo2"
+subject_source:
+  name: Minedu - Fields of research
+  id: "mscr:schema:058cdac3-8ca8-48e3-972b-7bcc67f64d7f"
+object_source:
+  name: "Australian and New Zealand Standard Research Classification 2020: Fields of Research"
+  id: "mscr:schema:95f516e3-122b-4ce7-b4c8-d4827007528d"
+creator:
+  type: Person
+  name: Jane Researcher
+  id: "https://orcid.org/0000-0000-0000-0000"
+author:
+  type: Organization
+  name: Research Institute
+  id: "https://example.org/institute"
+reviewer:
+  type: Person
+  name: Dr. Reviewer
+  id: "https://orcid.org/0000-1111-1111-1111"
+publication_date: "2024-01-15"
+license: "https://creativecommons.org/licenses/by/4.0/"
+documentation: "https://example.org/docs/mapping-spec"
+content_url: "file://test_data/vp26-mscr-demo-sssom.csv"

@@ -1,0 +1,2 @@
+subject_id;subject_label;object_id;object_label;predicate_id
+http://www.yso.fi/onto/okm-tieteenala/ta217;Medical engineering;https://linked.data.gov.au/def/anzsrc-for/2020/4003;Biomedical engineering;http://www.w3.org/2004/02/skos/core#narrowerMatch
